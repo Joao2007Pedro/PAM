@@ -30,7 +30,7 @@ function LadoFigura(figura) {
 }
 LadoFigura(4)
 
-    let fig = prompt("Quantos lados tem a figura? ");
+    let fig = parseInt(prompt("Quantos lados tem a figura? "), 10);
     if (fig === 3) {
         console.log("Triângulo");
     } else if (fig === 4) {
@@ -50,3 +50,4 @@ LadoFigura(4)
     } else {
         console.log("Não implementei ainda");
     }
+
